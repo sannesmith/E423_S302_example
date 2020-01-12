@@ -11,5 +11,7 @@ library(tidyverse)
 
 # Make a table
 t(mtcars %>%
-    selec(mpg, cyl, disp, hp) %>%
+    select(mpg, cyl, disp, hp) %>%
     stat.desc(basic = FALSE))
+    
+ # just some text

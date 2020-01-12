@@ -1,0 +1,15 @@
+# Hi class, this is an example of an R file on Github. 
+
+
+# Here I have some some code, but I misspelled tidyverse. Oops.
+# Correct it and create a pull request.
+
+
+# Load libraries
+library(tidyverse)
+
+
+# Make a table
+t(mtcars %>%
+    selec(mpg, cyl, disp, hp) %>%
+    stat.desc(basic = FALSE))
